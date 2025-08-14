@@ -30,7 +30,7 @@ const getVariables = (mode) => {
     Object.keys(files).forEach((filename) => {
         if (filename.includes('layouts')) filename = `layouts/${filename}`
         variables[filename + '.html'] = {
-            web_title: "Mazer Admin Dashboard",
+            web_title: "Viju's Restaurant Dashboard",
             sidebarItems,
             horizontalMenuItems,
             isDev: mode === 'development'

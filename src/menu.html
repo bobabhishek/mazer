@@ -1,0 +1,47 @@
+{% set title = "Menu" %}
+{% set filename = 'menu.html' %}
+{% extends 'src/layouts/master.html' %}
+
+{% block content %}
+<div class="page-heading">
+    <h3>Menu</h3>
+</div>
+<div class="page-content">
+    <section class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4>Top Dishes</h4>
+                </div>
+                <div class="card-body">
+                    <div class="row" id="menu-grid"></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h4>All Items</h4>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Category</th>
+                                    <th>Price</th>
+                                    <th>Popularity</th>
+                                </tr>
+                            </thead>
+                            <tbody id="menu-table"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+{% endblock %}
+
+{% block js %}
+<script src="assets/static/js/pages/menu.js"></script>
+{% endblock %}

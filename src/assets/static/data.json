@@ -1,0 +1,63 @@
+{
+	"kpis": {
+		"ordersToday": 156,
+		"revenueToday": 4820,
+		"avgOrderValue": 31,
+		"fiveStarReviews": 28
+	},
+	"monthlyOrders": {
+		"categories": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+		"data": [420, 510, 590, 640, 700, 820, 910, 980, 860, 740, 690, 760]
+	},
+	"channels": {
+		"dinein": {
+			"count": 862,
+			"sparkline": [35, 42, 39, 51, 62, 69, 58, 64, 70, 72, 68, 75]
+		},
+		"delivery": {
+			"count": 375,
+			"sparkline": [20, 28, 25, 33, 31, 37, 40, 44, 41, 39, 36, 38]
+		},
+		"takeaway": {
+			"count": 625,
+			"sparkline": [18, 22, 24, 27, 30, 34, 36, 38, 37, 35, 33, 31]
+		},
+		"catering": {
+			"count": 102,
+			"sparkline": [2, 3, 4, 6, 8, 7, 9, 11, 10, 9, 8, 14]
+		}
+	},
+	"customersProfile": {
+		"labels": ["Returning", "New", "VIP"],
+		"series": [62, 32, 6]
+	},
+	"menu": {
+		"items": [
+			{"name":"Margherita Pizza","category":"Pizza","price":12,"popularity":95},
+			{"name":"BBQ Chicken Pizza","category":"Pizza","price":16,"popularity":90},
+			{"name":"Caesar Salad","category":"Salad","price":9,"popularity":80},
+			{"name":"Spaghetti Bolognese","category":"Pasta","price":14,"popularity":85},
+			{"name":"Grilled Salmon","category":"Mains","price":22,"popularity":78},
+			{"name":"French Fries","category":"Sides","price":6,"popularity":70},
+			{"name":"Tiramisu","category":"Dessert","price":8,"popularity":65}
+		]
+	},
+	"revenue": {
+		"daily": {
+			"categories": ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],
+			"data": [620, 740, 830, 910, 1220, 1580, 1340]
+		}
+	},
+	"ingredients": {
+		"weekly": {
+			"categories": ["Tomatoes","Cheese","Chicken","Beef","Lettuce","Potatoes","Flour"],
+			"data": [120, 85, 65, 40, 90, 150, 110]
+		},
+		"latest": [
+			{"item":"Tomatoes","qty":50,"unit":"kg","cost":125},
+			{"item":"Mozzarella","qty":30,"unit":"kg","cost":210},
+			{"item":"Chicken Breast","qty":20,"unit":"kg","cost":180},
+			{"item":"Basil","qty":5,"unit":"kg","cost":40}
+		]
+	}
+} 

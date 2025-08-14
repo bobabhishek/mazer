@@ -1,0 +1,48 @@
+{% set title = "Ingredients" %}
+{% set filename = 'ingredients.html' %}
+{% extends 'src/layouts/master.html' %}
+
+{% block content %}
+<div class="page-heading">
+    <h3>Ingredients</h3>
+</div>
+<div class="page-content">
+    <section class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4>Ingredients Bought (This Week)</h4>
+                </div>
+                <div class="card-body">
+                    <div id="chart-ingredients-week"></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h4>Latest Purchases</h4>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Item</th>
+                                    <th>Qty</th>
+                                    <th>Unit</th>
+                                    <th>Cost</th>
+                                </tr>
+                            </thead>
+                            <tbody id="ingredients-table"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+{% endblock %}
+
+{% block js %}
+<script src="assets/extensions/apexcharts/apexcharts.min.js"></script>
+<script src="assets/static/js/pages/ingredients.js"></script>
+{% endblock %}
